@@ -10,9 +10,9 @@ Value | Command | Link
 `0x08` | Old led color command (works only partialy, don't use) |
 `0x09` | Old save command **DON'T USE!! This will break the LEDs** |
 `0x31` | Set button action |
-`0x33` | Uknown, has something to do withy the buttons (at least the wheel) | [33](https://github.com/FFY00/rival310-re/blob/master/33.md)
+`0x33` | Uknown, has something to do with the buttons (at least the wheel) | [33](https://github.com/FFY00/rival310-re/blob/master/33.md)
 `0x40` | Unkown. Seems to fix LEDs after `0x09` |
-`0x53` | Changes DPI | [54](https://github.com/FFY00/rival310-re/blob/master/53.md)
+`0x53` | Changes DPI | [53](https://github.com/FFY00/rival310-re/blob/master/53.md)
 `0x54` | Changes polling rate | [54](https://github.com/FFY00/rival310-re/blob/master/54.md)
 `0x59` | Save | [59](https://github.com/FFY00/rival310-re/blob/master/59.md)
 `0x5A` | Unknown, has something to do with the DPI | [5A](https://github.com/FFY00/rival310-re/blob/master/5A.md)
@@ -32,3 +32,10 @@ Value | Command | Link
 `0xFF` | Enable button report |
 
 `*` - When the command is sent, the device returns a packet with data. May not always work.
+
+### Force firmware update (reset)
+  * Unplug the mouse
+  * Press all the buttons for 10s
+  * Plug the device still pressing the buttons
+
+Now the LEDs should start blinking and you will be forced to update the firmware. Please note this **is not** a factory reset, it will only force the firmware to be updated.
