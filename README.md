@@ -4,8 +4,8 @@
 
 Value | Command | Link
 :---: | --- | :---:
-`0x00-0x01` | Reset (same as unplugging and plugging the mouse) | [01](https://github.com/FFY00/rival310-re/blob/master/01.md)
-`0x3 + 0x05` | Used for firmware updates (seriously, **don't use**) |
+`0x00 + 0x01` | Reset (same as unplugging and plugging the mouse) | [01](https://github.com/FFY00/rival310-re/blob/master/01.md)
+`0x03 + 0x05` | Used for firmware updates (seriously, **don't use**) |
 `0x07` | Old led effect command (works only partialy, don't use) |
 `0x08` | Old led color command (works only partialy, don't use) |
 `0x09` | Old save command **DON'T USE!! This will break the LEDs** |
