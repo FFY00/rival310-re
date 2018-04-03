@@ -28,7 +28,7 @@ Value | Command | Link
 `0xD6` | Uknown (Gets value*) |
 `0xFC` | Uknown (Gets value*) |
 `0xFD` | Uknown (Gets value*) |
-`0xFE` | Uknown (Gets value*) | [FF](https://github.com/FFY00/rival310-re/blob/master/FE.md)
+`0xFE` | Uknown (Gets value*) | [FE](https://github.com/FFY00/rival310-re/blob/master/FE.md)
 `0xFF` | Enable button report |
 
 `*` - When the command is sent, the device returns a packet with data. May not always work.
