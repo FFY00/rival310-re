@@ -18,17 +18,17 @@ Value | Command | Link
 `0x5A` | Unknown, has something to do with the DPI | [5A](https://github.com/FFY00/rival310-re/blob/master/5A.md)
 `0x5B` | Configure cycle (LEDs) | [5B](https://github.com/FFY00/rival310-re/blob/master/5B.md)
 `0x60` | Resets cycle |
-`0x87` | Uknown (Gets value*) |
-`0x89` | Uknown (Gets value*) | [89](https://github.com/FFY00/rival310-re/blob/master/89.md)
-`0x90` | Gets the firmware version | [90](https://github.com/FFY00/rival310-re/blob/master/90.md)
-`0x91` | Uknown (Gets value*) |
-`0x92` | Uknown (Gets value*) | [92](https://github.com/FFY00/rival310-re/blob/master/92.md)
-`0x9A` | Uknown (Gets value*) |
-`0xD4` | Uknown (Gets value*) |
-`0xD6` | Uknown (Gets value*) |
-`0xFC` | Uknown (Gets value*) |
-`0xFD` | Uknown (Gets value*) |
-`0xFE` | Uknown (Gets value*) | [FE](https://github.com/FFY00/rival310-re/blob/master/FE.md)
+`0x87` | Read current color from LED 1 |
+`0x89` | Uknown (Reads value*) | [89](https://github.com/FFY00/rival310-re/blob/master/89.md)
+`0x90` | Reads the firmware version | [90](https://github.com/FFY00/rival310-re/blob/master/90.md)
+`0x91` | Uknown (Reads value*) |
+`0x92` | Reads mouse values (DPI and LEDs) | [92](https://github.com/FFY00/rival310-re/blob/master/92.md)
+`0x9A` | Uknown (Reads value*) |
+`0xD4` | Uknown (Reads value*) |
+`0xD6` | Uknown (Reads value*) |
+`0xFC` | Uknown (Reads value*) |
+`0xFD` | Uknown (Reads value*) |
+`0xFE` | Uknown (Reads value*) | [FE](https://github.com/FFY00/rival310-re/blob/master/FE.md)
 `0xFF` | Enable button report |
 
 `*` - When the command is sent, the device returns a packet with data. May not always work.
