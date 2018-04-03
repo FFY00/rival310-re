@@ -11,7 +11,7 @@ Value | Command | Link
 `0x09` | Old save command **DON'T USE!! This will break the LEDs** |
 `0x31` | Set button action |
 `0x33` | Uknown, has something to do with the buttons (at least the wheel) | [33](https://github.com/FFY00/rival310-re/blob/master/33.md)
-`0x40` | Unkown. Seems to fix LEDs after `0x09` |
+`0x40` | Resets the LEDs. Seems to fix LEDs after `0x09` |
 `0x53` | Changes DPI | [53](https://github.com/FFY00/rival310-re/blob/master/53.md)
 `0x54` | Changes polling rate | [54](https://github.com/FFY00/rival310-re/blob/master/54.md)
 `0x59` | Save | [59](https://github.com/FFY00/rival310-re/blob/master/59.md)
