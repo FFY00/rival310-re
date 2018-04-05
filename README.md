@@ -1,9 +1,23 @@
 # Steelseries Rival 310 protocol specification
 
+![Rival-310](https://n11scdn.akamaized.net/a1/450/elektronik/mouse/steelseries-rival-310-siyah-ergonomic-oyuncu-mouse__0513750051657881.png)
+
+## Packets
+
+Byte | Description
+--- | :---:
+`0` | Command
+`1-End` | Data
+
+Size | Commands
+--- | ---
+`64` | All commands with the expection of the specified below
+`262` | Configure LEDs ([**5B**](https://github.com/FFY00/rival310-re/blob/master/5B.md)), Configure Buttons
+
 ### Commands
 
 Value | Command | Link
-:---: | --- | :---:
+--- | --- | :---:
 `0x00 + 0x01` | Reset (same as unplugging and plugging the mouse) | [01](https://github.com/FFY00/rival310-re/blob/master/01.md)
 `0x03 + 0x05` | Used for firmware updates (seriously, **don't use**) |
 `0x07` | Old led effect command (works only partialy, don't use) |
