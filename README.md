@@ -1,6 +1,6 @@
 # Steelseries Rival 310 protocol specification
 
-![Rival-310](https://i.imgur.com/G1JrZZ2.png)
+![Rival-310](https://i.imgur.com/obUTPnD.png)
 
 ## Packets
 
