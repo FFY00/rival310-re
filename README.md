@@ -1,14 +1,16 @@
 # Steelseries Rival 310 protocol specification
 
-![Rival-310](https://n11scdn.akamaized.net/a1/450/elektronik/mouse/steelseries-rival-310-siyah-ergonomic-oyuncu-mouse__0513750051657881.png)
+![Rival-310](https://i.imgur.com/G1JrZZ2.png)
 
 ## Packets
 
+#### Structure
 Byte | Description
 --- | :---:
 `0` | Command
 `1-End` | Data
 
+#### Size
 Size | Commands
 --- | ---
 `64` | All commands with the expection of the specified below
