@@ -21,7 +21,7 @@ Size | Commands
 Value | Command | Link
 --- | --- | :---:
 `0x00 + 0x01` | Reset (same as unplugging and plugging the mouse) | [01](https://github.com/FFY00/rival310-re/blob/master/01.md)
-`0x03 + 0x05` | Used for firmware updates (seriously, **don't use**) |
+`0x03 + 0x05` | Used for firmware updates (**don't use**) |
 `0x07` | Old led effect command (works only partialy, don't use) |
 `0x08` | Old led color command (works only partialy, don't use) |
 `0x09` | Old save command **DON'T USE!! This will break the LEDs** |
@@ -54,4 +54,4 @@ Value | Command | Link
   * Press all the buttons for 10s
   * Plug the device still pressing the buttons
 
-Now the LEDs should start blinking and you will be forced to update the firmware. Please note this **is not** a factory reset, it will only force the firmware to be updated.
+Now the LEDs should start blinking and you will be forced to update the firmware. Please note this **is not** a factory reset, it will only forces the firmware to be updated.
