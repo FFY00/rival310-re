@@ -49,6 +49,9 @@ Value | Command | Link
 
 `*` - When the command is sent, the device returns a packet with data. May not always work.
 
+### Sniff using Wireshark
+Start wireshark in the correct bus and use the followinf filter `usb.endpoint_address == 0`.
+
 ### Force firmware update (reset)
   * Unplug the mouse
   * Press all the buttons for 10s
